@@ -5,7 +5,14 @@ import RecipeList from './RecipeList';
 import Loading from '../loading';
 import { ninjaRecipes } from '../../../data';
 
-
+interface Recipe {
+  title: string;
+  image: string;
+  time: number;
+  description: string;
+  vegan: boolean;
+  // Add other properties as needed
+}
 
   
 
